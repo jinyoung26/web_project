@@ -13,9 +13,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
-    #header .img {
+    #header .header-icon {
         width: 6%;
         margin: 3% 5%;
     }
@@ -42,7 +43,7 @@
 
     .story {
         width: auto;
-        margin: 2.5% 3.2%
+        margin: 2.5% 3.2%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -58,7 +59,7 @@
         border: 2px solid transparent;
     }
 
-    .profile-pic > img {
+    .profile-pic img {
         width: 100%;
         height: 100%;
         border-radius: 50%;
@@ -71,83 +72,106 @@
     }
 
 /*포스트*/
-    .post {
+
+    .left-wrapper {
+        margin-left: 3%;
+        display: flex;
+        align-items: center;
         width: 100%;
-        margin-top: 1%;
-        justify-content: space-between;
-        background-color: white;
-        border: 1px solid lightgray;
+    }
+
+    .right-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-right: 3%;
     }
 
     .info {
         width: 100%;
-        height: 5%;
+        margin: 1% 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .info .username {
-        width: auto;
-        color: black;
+    .info .left-wrapper img {
+        width: 15%;
+        height: 15%;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        margin: 0 2%;
+    }
+
+    .info .left-wrapper p {
+        margin-left: 2%;
+        font-weight: bold;
         font-size: 14px;
-        margin-left: 10px;
     }
 
-    .info .options {
-        margin-left: auto;
+    .post-body img {
+        width: 100%;
     }
 
-    .info .user {
+    .post-body .post-content {
         display: flex;
         align-items: center;
-    }
-
-    .info .profile-pic {
-        height: 40px;
-        width: 40px;
-        padding: 0;
-    }
-
-    .post-image {
+        justify-content: space-between;
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        margin-top: 1%;
     }
 
-    .post-content {
-        width: 100%;
-        padding: 20px;
+    .post-body .post-content .left-wrapper .icon {
+        margin: 2% 4%;
+        width: 13%;
     }
 
-    #username_2 {
-        margin: 10px 0;
-        font-size: 14px;
-        line-height: 20px;
+    .post-body .post-content .right-wrapper img {
+        margin: 2% 4%;
+        width: 11%;
     }
 
-    #post-time {
-        color: lightgray;
-        font-size: 12px;
+    .post-footer {
+        padding-left: 2%;
+        border-bottom: 1px solid lightgray;
     }
 
-    .icon-wrapper {
-        width: 100%;
-        height: 8%;
+    .post-footer .post-like-wrapper {
         display: flex;
-        margin-top: 5px;
         align-items: center;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 
-    .icon-wrapper .icon {
-        height: 5%;
-        margin: 0;
-        margin-right: 20px;
+    .post-footer .post-like-wrapper p {
+        margin-bottom: 2%;
+        margin-top: 2%;
+        font-size: 14px;
     }
 
-    .icon-wrapper .icon.save {
-        margin-left: auto;
+    .post-footer .post-content-wrapper {
+        display: flex;
     }
+
+    .post-footer .post-content-wrapper .post-author {
+        margin: 0% 2% 0% 2%;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .post-footer .post-content-wrapper .post-content {
+        margin: 0%;
+        font-size: 14px;
+    }
+
+    .post-footer .post-time {
+        color: gray;
+        font-size: 10px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
 
     #footer {
         width: 100%;
