@@ -1,0 +1,180 @@
+    .main {
+        width: 100%;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .header {
+        position: fixed;
+        width: 70%;
+        height: 5%;
+        top: 0%;
+        background-color: white;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header > img {
+        width: 10%;
+        height: 10%
+        object-fit: contain;
+    }
+
+    #instagram_logo {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .story-wrapper {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 70%;
+        height: 10%;
+        background-color: #F2F4F4;
+        border: 1px solid lightgray;
+        align-items: center;
+    }
+
+    .story {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-pic {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        padding: 3px;
+    }
+
+    .profile-pic > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid lightgray;
+    }
+
+    .username {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 5px;
+        color: black
+    }
+
+    .post {
+        width: 70%;
+        max-width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-top: 40px;
+    }
+
+    .info {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info .username {
+        width: auto;
+        color: black;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .info .options {
+        margin-left: auto;
+    }
+
+    .info .user {
+        display: flex;
+        align-items: center;
+    }
+
+    .info .profile-pic {
+        height: 40px;
+        width: 40px;
+        padding: 0;
+    }
+
+    .post-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .post-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #username_2 {
+        margin: 10px 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #post-time {
+        color: lightgray;
+        font-size: 12px;
+    }
+
+    .icon-wrapper {
+        width: 100%;
+        height: 8%;
+        display: flex;
+        margin-top: 5px;
+        align-items: center;
+    }
+
+    .icon-wrapper .icon {
+        height: 5%;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    .icon-wrapper .icon.save {
+        margin-left: auto;
+    }
+
+    #footer {
+        width: 100%;
+        height: 14vm;
+        background-color: rgba(255, 255, 255, 1);
+        position: fixed;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-top: 1mm solid lightgray;
+        border-bottom: 1mm solid lightgray;
+    }
+
+    #footer > img {
+        width: 6vm;
+        height: 6vm;
+    }
