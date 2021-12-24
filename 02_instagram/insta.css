@@ -160,21 +160,3 @@
     .icon-wrapper .icon.save {
         margin-left: auto;
     }
-
-    #footer {
-        width: 100%;
-        height: 14vm;
-        background-color: rgba(255, 255, 255, 1);
-        position: fixed;
-        position: relative;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-top: 1mm solid lightgray;
-        border-bottom: 1mm solid lightgray;
-    }
-
-    #footer > img {
-        width: 6vm;
-        height: 6vm;
-    }
