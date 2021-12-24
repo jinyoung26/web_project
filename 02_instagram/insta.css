@@ -1,16 +1,12 @@
-    .main {
-        width: 100%;
-        padding: 5%;
-        display: flex;
-        justify-content: center;
-        position: relative;
-        margin: auto;
+    body {
+        max-width: 720px;
+        margin: 0 auto;
     }
 
-    .header {
+    #header {
         position: fixed;
-        width: 70%;
-        height: 5%;
+        width: 100%;
+        max-width: 720px;
         top: 0%;
         background-color: white;
         border-bottom: 1px solid lightgray;
@@ -19,76 +15,68 @@
         justify-content: space-between;
     }
 
-    .header > img {
-        width: 10%;
-        height: 10%
-        object-fit: contain;
+    #header .img {
+        width: 6%;
+        margin: 3% 5%;
     }
 
-    #instagram_logo {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
+    #header #instagram_logo {
+        width: 27%
     }
 
-    .wrapper {
-        width: 100%;
-        max-width: 100%;
+/*#스토리*/
+    #wrapper {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+
+    #story-wrapper {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .story-wrapper {
-        position: fixed;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 70%;
-        height: 10%;
+        justify-content: flex-start;
         background-color: #F2F4F4;
-        border: 1px solid lightgray;
+        padding-left: 1%;
+        border-bottom: 1px solid lightgray;
         align-items: center;
+        overflow: hidden;
     }
 
     .story {
-        width: 100%;
-        max-width: 100%;
+        width: auto;
+        margin: 2.5% 3.2%
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .profile-pic {
-        width: 5vw;
-        height: 5vw;
+        width: 13vw;
+        max-width: 80px;
+        max-height: 80px;
+        height: 13vw;
         border-radius: 50%;
-        padding: 3px;
+        border: 2px solid transparent;
     }
 
     .profile-pic > img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
         border-radius: 50%;
-        border: 2px solid lightgray;
     }
 
     .username {
-        width: 100%;
-        text-align: center;
         font-size: 12px;
-        margin-top: 5px;
-        color: black
+        margin-top: 10%;
+        margin-bottom: 0%;
     }
 
+/*포스트*/
     .post {
-        width: 70%;
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        margin-top: 1%;
+        justify-content: space-between;
         background-color: white;
         border: 1px solid lightgray;
-        margin-top: 40px;
     }
 
     .info {
@@ -159,4 +147,24 @@
 
     .icon-wrapper .icon.save {
         margin-left: auto;
+    }
+
+    #footer {
+        width: 100%;
+        max-width: 720px;
+        bottom: 0;
+        position: fixed;
+        background-color: white;
+        border-top: 1px solid lightgray;
+    }
+
+    #footer #icon-wrapper {
+        margin: 4% 6%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #footer #icon-wrapper > img {
+        width: 6%
     }
