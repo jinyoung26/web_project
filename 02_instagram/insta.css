@@ -55,10 +55,11 @@
     }
 
 
-    @media (max-width: 800px)
+    @media (max-width: 800px) {
         .desktop {
             display: none;
         }
+}
 
     body {
         max-width: 720px;
